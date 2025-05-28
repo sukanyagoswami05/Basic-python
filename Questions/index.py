@@ -46,3 +46,63 @@ fahrenheit=(celsius*9/5)+32
 print("temperature in fahrenheit" , fahrenheit)
 
 #  Program 8 Write a Python program to display calendar.
+import calendar
+year=int(input("enter a year: "))
+month=int(input("enter a month: "))
+cal=calendar.month(year,month)
+print(cal)
+
+
+#Program 9 Write a Python program to solve quadratic equation
+
+# Program 10  Write a Python program to swap two variables without temp variable
+a=eval(input("enter a number "))
+b=eval(input("enter a number"))
+a,b=b,a
+print("value of a is : ", a )
+print("value of b is ",b)
+
+#Program 11  Write a Python Program to Check if a Number is Positive, Negative or Zero
+num=eval(input ("enter a number:"))
+if num>0:
+    print("number is positive")
+elif num==0:
+    print("the number is zero")
+else: print("number is negative")
+
+# Program 12 Write a Python Program to Check if a Number is Odd or Even.
+num=eval(input("enter a number"))
+if num%2==0:
+    print("the number is even")
+else :
+    print("the number is odd")
+    
+    
+ # program 13  Write a Python Program to Check Leap Year
+ year = int(input("enter a year:"))
+ #divided by 100 means century year (ending with 00)
+ #century year divided by 400 is leap year 
+ if (year % 400 == 0) and (year % 100 == 0):
+    print( "{0} is a leap year".format(year))
+      # not divided by 100 means not a century year
+      # year divided by 4 is a leap year
+    elif: (year%4==0) and (year%100!==0):
+    print("{} is a leap year")
+        
+else: print("not a leap year")  
+     
+     
+     
+ year = int(input("Enter a year: "))
+ # divided by 100 means century year (ending with 00)
+ # century year divided by 400 is leap year
+ if (year % 400 == 0) and (year % 100 == 0):
+ print("{0} is a leap year".format(year))
+ # not divided by 100 means not a century year
+ # year divided by 4 is a leap year
+    elif (year % 4 ==0) and (year % 100 != 0):
+ print("{0} is a leap year".format(year))
+ # if not divided by both 400 (century year) and 4 (not century year)
+ # year is not leap year
+ else:
+ print("{0} is not a leap year".format(year))
