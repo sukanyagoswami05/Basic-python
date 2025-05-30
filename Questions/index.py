@@ -80,8 +80,6 @@ else :
     
  # program 13  Write a Python Program to Check Leap Year
 
- #divided by 100 means century year (ending with 00)
- #century year divided by 400 is leap year 
  
 
     
