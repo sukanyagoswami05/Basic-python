@@ -53,7 +53,7 @@ cal=calendar.month(year,month)
 print(cal)
 
 
-#Program 9 Write a Python program to solve quadratic equation
+
 
 # Program 10  Write a Python program to swap two variables without temp variable
 a=eval(input("enter a number "))
