@@ -78,7 +78,7 @@ else :
     print("the number is odd")
     
     
- # program 13  Write a Python Program to Check Leap Year
+ 
 
  
 
