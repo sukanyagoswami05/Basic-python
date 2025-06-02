@@ -52,9 +52,6 @@ month=int(input("enter a month: "))
 cal=calendar.month(year,month)
 print(cal)
 
-
-
-
 # Program 10  Write a Python program to swap two variables without temp variable
 a=eval(input("enter a number "))
 b=eval(input("enter a number"))
