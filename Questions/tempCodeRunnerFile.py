@@ -1,5 +1,7 @@
-num=eval(input("enter a number"))
-if num%2==0:
-    print("the number is even")
+year=int(input("enter a year"))
+if year % 4 == 0  and year % 100!=0:
+    print("year is leap year")
+elif year % 400 == 0:
+    print("is leap year")
 else :
-    print("the number is odd")
+    print("year is not a leap year") 

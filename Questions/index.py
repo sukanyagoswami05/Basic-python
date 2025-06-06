@@ -74,11 +74,30 @@ if num%2==0:
 else :
     print("the number is odd")
     
-    
+#Write a program to check if a number is positive, negative, or zero.
+num=int(input("enter a number : " ))
+if num>0:
+    print("no. is positive")
+elif num<0:
+    print("no.is negative ")
+else :
+    print("no.is zero ")
  
-
+#Take user input and check if it is even or odd.
+num=int(input("enter a number: "))
+if num%2==0:
+    print("the no.is even")
+else :
+    print("the no.is odd")    
  
-
+#check if a year is a leap year or not.
+year=int(input("enter a year"))
+if year % 4 == 0  and year % 100!=0:
+    print("year is leap year")
+elif year % 400 == 0:
+    print("is leap year")
+else :
+    print("year is not a leap year")    
     
 
  
