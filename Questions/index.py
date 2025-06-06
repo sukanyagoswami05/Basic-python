@@ -100,4 +100,25 @@ else :
     print("year is not a leap year")    
     
 
+ # Write a program to check if a person is eligible to vote.
+age=int(input("enter age: "))
+if age >=18:
+     print("eligible to vote")  
+else:
+     print("not eligible to vote")    
+     
+# Write a program to find the greatest among two numbers.     
+num1=int(input("enter a 1st number: "))
+num2=int(input("enter a sec no:  "))
+if num1>=num2:
+    print("the 1st no. is greatest")
+else:
+    print(" the 2nd no. is greatest")    
  
+ #Check if the given character is a vowel or a consonant.   
+char=input("enter a single character: ")
+if char in "aeiouAEIOU":
+    print("it is a vowel")
+    
+else :
+    print("it is consonant")    

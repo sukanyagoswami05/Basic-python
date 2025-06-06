@@ -1,7 +1,6 @@
-year=int(input("enter a year"))
-if year % 4 == 0  and year % 100!=0:
-    print("year is leap year")
-elif year % 400 == 0:
-    print("is leap year")
+char=input("enter a single character: ")
+if char in "aeiouAEIOU":
+    print("it is a vowel")
+    
 else :
-    print("year is not a leap year") 
+    print("it is consonant")  
