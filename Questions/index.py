@@ -122,3 +122,37 @@ if char in "aeiouAEIOU":
     
 else :
     print("it is consonant")    
+    
+#Write a program to find the greatest among three numbers.   
+num1=int(input("enter a 1st no.:")) 
+num2=int(input("enter a 2nd no.:")) 
+num3=int(input("enter a 3rd no.:")) 
+if num1>=num2 and num1>=num3:
+    print("1st no. is greatest")
+elif num2>=num1 and num2>=num3:
+    print("2nd no. is greatest")
+    
+else: 
+    print("3rd no. is greatest")
+
+#Check if a number is divisible by 3 and 5 both.
+num=int(input("enter a number"))
+if num%3==0 and num%5==0:
+    print("the no.is divisible by both 3 and 5")
+else :
+    print("not divisible by both 3 and 5")    
+    
+# Given a character, determine whether it is an uppercase letter, lowercase letter, digit, or special character.
+char=input("enter a single char")
+if len(char)!=1:
+    print("please enter a single char ")
+else:
+    if char.islower():
+        print('char is lowercase letter')  
+        
+    elif char.isupper():
+        print("char is uppercase letter") 
+    elif char.isdigit():
+        print("it is digit")    
+    else :
+        print("it is special character ")             
