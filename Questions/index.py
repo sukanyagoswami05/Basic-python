@@ -135,12 +135,7 @@ elif num2>=num1 and num2>=num3:
 else: 
     print("3rd no. is greatest")
 
-#Check if a number is divisible by 3 and 5 both.
-num=int(input("enter a number"))
-if num%3==0 and num%5==0:
-    print("the no.is divisible by both 3 and 5")
-else :
-    print("not divisible by both 3 and 5")    
+   
     
 # Given a character, determine whether it is an uppercase letter, lowercase letter, digit, or special character.
 char=input("enter a single char")
@@ -156,3 +151,5 @@ else:
         print("it is digit")    
     else :
         print("it is special character ")             
+        
+        
