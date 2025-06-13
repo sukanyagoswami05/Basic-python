@@ -161,4 +161,11 @@ if num%3==0 and num%5==0:
 else :
     print("not divisible by both 3 and 5")  
     
+   # Write a program to check if a person is eligible to vote.
+age=int(input("enter age: "))
+if age >=18:
+     print("eligible to vote")  
+else:
+     print("not eligible to vote")   
+    
   
