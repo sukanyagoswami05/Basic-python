@@ -124,7 +124,7 @@ else :
     print("it is consonant")    
     
 
-#Write a program to find the greatest among three numbers.   
+# Write a program to find the greatest among three numbers.   
 
 num1=int(input("enter a 1st no.:")) 
 num2=int(input("enter a 2nd no.:")) 
