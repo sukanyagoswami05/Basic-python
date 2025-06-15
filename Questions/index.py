@@ -9,6 +9,13 @@ b=int(input("enter a second number"))
 sum=a+b
 print("the sum of numbers is", sum)
 
+
+#for additional
+a=int(input("enter a first number"))
+b=int(input("enter a second number"))
+sum=a+b
+print("the sum of numbers is", sum)
+
 #for division
 a=int(input("enter a first number"))
 b=int(input("enter a sceond number"))
