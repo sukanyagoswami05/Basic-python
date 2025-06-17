@@ -16,6 +16,14 @@ b=int(input("enter a sceond number"))
 result=a/b
 print("the divison of two number is : " , result)
 
+
+for division
+a=int(input("enter a first number"))
+b=int(input("enter a sceond number"))
+result=a/b
+print("the divison of two number is : " , result)
+
+
 #Program 3:Write a Python program to find the area of a triangle
 height=int(input("enter a height of triangle"))
 base=int(input("enter a base of triangle"))
