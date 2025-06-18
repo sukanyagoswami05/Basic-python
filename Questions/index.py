@@ -166,14 +166,4 @@ else :
     print("not divisible by both 3 and 5")  
     
     
- # 1 Write a Python program to print "Hello Python"
-a="hello python"
-print(a)
-
-#2  Write a Python program to do arithmetical operations addition and division.
-#for additional
-a=int(input("enter a first number"))
-b=int(input("enter a second number"))
-sum=a+b
-print("the sum of numbers is", sum)   
-  
+ 
