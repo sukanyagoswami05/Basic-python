@@ -16,9 +16,6 @@ b=int(input("enter a sceond number"))
 result=a/b
 print("the divison of two number is : " , result)
 
-
-
-
 #Program 3:Write a Python program to find the area of a triangle
 height=int(input("enter a height of triangle"))
 base=int(input("enter a base of triangle"))
@@ -166,7 +163,30 @@ else :
     print("not divisible by both 3 and 5")  
     
     
+# Given a character, determine whether it is an uppercase letter, lowercase letter, digit, or special character.
+char=input("enter a single char")
+if len(char)!=1:
+    print("please enter a single char ")
+else:
+    if char.islower():
+        print('char is lowercase letter')  
+        
+    elif char.isupper():
+        print("char is uppercase letter") 
+    elif char.isdigit():
+        print("it is digit")    
+    else :
+        print("it is special character ")             
+        
+#Check if a number is divisible by 3 and 5 both.
+num=int(input("enter a number"))
+if num%3==0 and num%5==0:
+    print("the no.is divisible by both 3 and 5")
+else :
+    print("not divisible by both 3 and 5")  
     
+    
+
  
    
     
