@@ -170,7 +170,6 @@ if len(char)!=1:
 else:
     if char.islower():
         print('char is lowercase letter')  
-        
     elif char.isupper():
         print("char is uppercase letter") 
     elif char.isdigit():
