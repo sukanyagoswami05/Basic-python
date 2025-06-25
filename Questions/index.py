@@ -164,13 +164,7 @@ else :
     
     
     
-    #Check if a number is divisible by 3 and 5 both.
-num=int(input("enter a number"))
-if num%3==0 and num%5==0:
-    print("the no.is divisible by both 3 and 5")
-else :
-    print("not divisible by both 3 and 5")
-      
+    
     
     
 # Given a character, determine whether it is an uppercase letter, lowercase letter, digit, or special character.
