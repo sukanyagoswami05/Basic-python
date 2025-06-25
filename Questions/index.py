@@ -163,10 +163,7 @@ else :
     print("not divisible by both 3 and 5")
     
     
-    
-    
-    
-    
+
 # Given a character, determine whether it is an uppercase letter, lowercase letter, digit, or special character.
 char=input("enter a single char")
 if len(char)!=1:
