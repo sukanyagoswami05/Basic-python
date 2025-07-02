@@ -137,6 +137,18 @@ elif num2>=num1 and num2>=num3:
     
 else: 
     print("3rd no. is greatest")
+    
+    
+    num1=int(input("enter a 1st no.:")) 
+num2=int(input("enter a 2nd no.:")) 
+num3=int(input("enter a 3rd no.:")) 
+if num1>=num2 and num1>=num3:
+    print("1st no. is greatest")
+elif num2>=num1 and num2>=num3:
+    print("2nd no. is greatest")
+    
+else: 
+    print("3rd no. is greatest")
 
    
     
@@ -180,5 +192,18 @@ else:
         
  
    
-   
+char=input("enter a single char")
+if len(char)!=1:
+    print("please enter a single char ")
+else:
+    if char.islower():
+        print('char is lowercase letter')  
+    elif char.isupper():
+        print("char is uppercase letter") 
+    elif char.isdigit():
+        print("it is digit")    
+    else :
+        print("it is special character ")             
+        
+ 
     
