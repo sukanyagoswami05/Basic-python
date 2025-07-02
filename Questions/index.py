@@ -139,16 +139,6 @@ else:
     print("3rd no. is greatest")
     
     
-    num1=int(input("enter a 1st no.:")) 
-num2=int(input("enter a 2nd no.:")) 
-num3=int(input("enter a 3rd no.:")) 
-if num1>=num2 and num1>=num3:
-    print("1st no. is greatest")
-elif num2>=num1 and num2>=num3:
-    print("2nd no. is greatest")
-    
-else: 
-    print("3rd no. is greatest")
 
    
     
