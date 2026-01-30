@@ -4,15 +4,14 @@ print(a)
 
 #2  Write a Python program to do arithmetical operations addition and division.
 #for additional
-a=int(input("enter a first number"))
-b=int(input("enter a second number"))
+a=int(input("enter a first number "))
+b=int(input("enter a second number "))
 sum=a+b
 print("the sum of numbers is", sum)
 
-
 #for division
 a=int(input("enter a first number"))
-b=int(input("enter a sceond number"))
+b=int(input("enter a second number"))
 result=a/b
 print("the divison of two number is : " , result)
 
@@ -54,11 +53,11 @@ cal=calendar.month(year,month)
 print(cal)
 
 # Program 10  Write a Python program to swap two variables without temp variable
-a=eval(input("enter a number "))
-b=eval(input("enter a number"))
+a=eval(input("enter a 1st number "))
+b=eval(input("enter a 2nd number "))
 a,b=b,a
-print("value of a is : ", a )
-print("value of b is ",b)
+print("value of a 1st number is : " ,a)
+print("value of a 2nd number is : " ,b)
 
 #Program 11  Write a Python Program to Check if a Number is Positive, Negative or Zero
 num=eval(input ("enter a number:"))
